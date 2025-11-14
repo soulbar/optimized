@@ -1,6 +1,6 @@
 import base64
 import logging
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
 
 import requests
 import yaml
@@ -188,7 +188,7 @@ class GitHubNodeCrawler:
         if path_lower.endswith(".txt"):
             return self.parse_links_from_text(content)
         if path_lower.endswith(".json"):
-            # 这里根据你实际 JSON 结构扩展，目前先不解析
+            # TODO: 根据实际 JSON 结构解析
             return []
         return []
 
@@ -210,7 +210,7 @@ class GitHubNodeCrawler:
         logger.info(f"[crawler] 仓库 {repo} 共爬取到 {len(all_nodes)} 个节点（未去重）")
         return all_nodes
 
-        def crawl_all(self, repos: List[str] | None = None) -> List[Dict[str, Any]]:
+    def crawl_all(self, repos: Optional[List[str]] = None) -> List[Dict[str, Any]]:
         """
         爬取所有仓库并去重。
 
@@ -235,4 +235,3 @@ class GitHubNodeCrawler:
 
         logger.info(f"[crawler] 去重后共 {len(all_nodes)} 个唯一节点")
         return all_nodes
-
