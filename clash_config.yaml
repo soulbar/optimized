@@ -4,6 +4,20 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
+- flow: xtls-rprx-vision
+  name: IQ_speednode_0028
+  port: 443
+  reality-opts:
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: c2a0b2d60a7fc300
+  server: sws.jykvpn.com
+  servername: cdnjs.com
+  skip-cert-verify: false
+  speed: 295.96
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
 - name: SE_speednode_0046
   network: ws
   password: edeff73d-065d-4b0a-b848-aad9d3380223
@@ -11,20 +25,103 @@ proxies:
   server: 77.221.141.207
   skip-cert-verify: false
   sni: joss.dus.biz.id
-  speed: 298.2
+  speed: 295.36
   type: trojan
   udp: true
   ws-opts:
     headers:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/77.221.141.207=443
+- flow: xtls-rprx-vision
+  name: US_speednode_0050
+  port: 443
+  reality-opts:
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: 4c02bbbfa833b3b6
+  server: autos.jykvpn.com
+  servername: cdnjs.com
+  skip-cert-verify: false
+  speed: 282.18
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
+- name: NL_speednode_0036
+  network: ws
+  password: 5ad5fe82-6b60-4f59-977b-93910ef7a9ca
+  port: 443
+  server: 86.107.197.239
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  speed: 265.02
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/86.107.197.239=443
+- name: 日本2|@ripaojiedian
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 1334
+  server: 160.16.132.158
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  speed: 243.35
+  type: trojan
+- name: PL_speednode_0038
+  network: ws
+  password: 55d19115-ec40-407b-a674-74e6a948347a
+  port: 2053
+  server: 45.144.48.55
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  speed: 232.94
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/45.144.48.55=2053
+- name: NL_speednode_0037
+  network: ws
+  password: f5eaa93a-4660-46a8-a1fd-bf993c7da57c
+  port: 8443
+  server: 185.121.233.231
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  speed: 220.15
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/185.121.233.231=8443
+- name: 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 4094
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  speed: 201.68
+  type: trojan
+- name: '@V2rayNG3'
+  password: '123456'
+  port: 443
+  server: 192.3.85.237
+  skip-cert-verify: true
+  sni: bing.com
+  speed: 192.53
+  tls: false
+  type: hysteria2
 - name: SI_speednode_0048
   network: ws
   port: 443
   server: 45.144.52.23
   servername: fl-3-direct.djarbnet.ru
   skip-cert-verify: false
-  speed: 295.07
+  speed: 189.97
   tls: true
   type: vless
   udp: true
@@ -33,14 +130,31 @@ proxies:
     headers:
       Host: fl-3-direct.djarbnet.ru
     path: /getupdates
-- name: 香港4|@ripaojiedian
+- name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 203.198.122.97
+  server: 219.77.239.35
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  speed: 286.51
+  speed: 184.6
+  type: trojan
+- name: MCI-IR--@V2rayAlpha-7
+  password: 9ec830fd-79da-4706-a964-cb227d7198db
+  port: 33333
+  server: 135.148.82.248
+  skip-cert-verify: true
+  speed: 183.74
+  tls: false
+  type: hysteria2
+- name: 日本3|@ripaojiedian
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 3169
+  server: 160.16.196.59
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  speed: 173.4
   type: trojan
 - name: '@NoForcedheaven'
   obfs: salamander
@@ -49,129 +163,41 @@ proxies:
   port: 443
   server: 46.62.152.236
   skip-cert-verify: true
-  speed: 257.83
+  speed: 156.96
   tls: false
   type: hysteria2
-- flow: xtls-rprx-vision
-  name: JP_speednode_0032
-  port: 443
-  reality-opts:
-    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-    short-id: 4c02bbbfa833b3b6
-  server: usa.jykvpn.com
-  servername: cdnjs.com
-  skip-cert-verify: false
-  speed: 257.15
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
-- name: PL_speednode_0038
+- name: PL_speednode_0039
   network: ws
-  password: 55d19115-ec40-407b-a674-74e6a948347a
-  port: 2053
-  server: 45.144.48.55
-  skip-cert-verify: false
-  sni: joss.dus.biz.id
-  speed: 254.4
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/45.144.48.55=2053
-- flow: xtls-rprx-vision
-  name: RU_speednode_0043
-  port: 4442
-  reality-opts:
-    public-key: HCkRC28M16WYrORNt2-Bga_3AuxuGnphlAwXHY9R4SI
-    short-id: fd99
-  server: 193.124.182.224
-  servername: dl.google.com
-  skip-cert-verify: false
-  speed: 247.59
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9429f5ce-ed0f-48e7-afda-12f7b23441af
-- flow: xtls-rprx-vision
-  name: RU_speednode_0041
-  port: 443
-  reality-opts:
-    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-    short-id: c2a0b2d60a7fc300
-  server: youtube.jykvpn.com
-  servername: cdnjs.com
-  skip-cert-verify: false
-  speed: 229.84
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
-- name: IT_speednode_0031
-  network: ws
-  password: d5a49621-b25c-4684-aea8-8389f3a8afaf
+  password: 49d416e1-4cec-41e1-bff6-3748c466f275
   port: 8443
-  server: 94.177.199.119
+  server: 45.144.48.158
   skip-cert-verify: false
   sni: joss.dus.biz.id
-  speed: 225.03
+  speed: 147.75
   type: trojan
   udp: true
   ws-opts:
     headers:
       Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/94.177.199.119=8443
-- name: MCI-IR--@V2rayAlpha-7
-  password: 9ec830fd-79da-4706-a964-cb227d7198db
-  port: 33333
-  server: 135.148.82.248
-  skip-cert-verify: true
-  speed: 222.32
-  tls: false
-  type: hysteria2
-- name: 香港5|@ripaojiedian
+    path: /Free-VPN-CF-Geo-Project/45.144.48.158=8443
+- name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
   port: 443
-  server: 219.77.239.35
+  server: 203.198.122.97
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  speed: 217.58
+  speed: 142.72
   type: trojan
-- name: 新加坡|@ripaojiedian
+- name: 新加坡2|@ripaojiedian
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
-  port: 2760
-  server: 160.16.81.84
+  port: 5553
+  server: 160.16.124.55
   skip-cert-verify: false
   sni: www.nintendogames.net
-  speed: 210.2
+  speed: 123.26
   type: trojan
-- name: SI_speednode_0047
-  network: ws
-  port: 443
-  server: fl-3-direct.djarbnet.ru
-  servername: fl-3-direct.djarbnet.ru
-  skip-cert-verify: false
-  speed: 208.92
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc67ca7f-064e-4117-ac31-a66d5728a11c
-  ws-opts:
-    headers:
-      Host: fl-3-direct.djarbnet.ru
-    path: /getupdates
-- name: '@V2rayNG3'
-  password: '123456'
-  port: 443
-  server: 192.3.85.237
-  skip-cert-verify: true
-  sni: bing.com
-  speed: 206.87
-  tls: false
-  type: hysteria2
 - flow: xtls-rprx-vision
   name: US_speednode_0055
   port: 443
@@ -181,134 +207,32 @@ proxies:
   server: fis.jykvpn.com
   servername: cdnjs.com
   skip-cert-verify: false
-  speed: 200.82
+  speed: 116.95
   tls: true
   type: vless
   udp: true
   uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
-- flow: xtls-rprx-vision
-  name: BG_speednode_0006
-  port: 443
-  reality-opts:
-    public-key: ZmcE7f2ZycnrnsUSPkCrPBIGYC8dM4b27DX47DwCHXk
-    short-id: 473915f2ef487f
-  server: albania.solobot.ru
-  servername: yahoo.com
-  skip-cert-verify: false
-  speed: 200.01
-  tls: true
-  type: vless
-  udp: true
-  uuid: 678bbdc1-7307-4cf2-bec1-bcdbd8efdbe5
-- flow: xtls-rprx-vision
-  name: IQ_speednode_0030
-  port: 443
-  reality-opts:
-    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-    short-id: c2a0b2d60a7fc300
-  server: ges.jykvpn.com
-  servername: cdnjs.com
-  skip-cert-verify: false
-  speed: 174.07
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
-- name: DK_speednode_0011
-  network: ws
-  password: 63b8ce6d-9a30-4122-a00f-fd47f020dc27
-  port: 443
-  server: 89.28.236.243
-  skip-cert-verify: false
-  sni: joss.dus.biz.id
-  speed: 165.5
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/89.28.236.243=443
-- name: PL_speednode_0039
-  network: ws
-  password: 49d416e1-4cec-41e1-bff6-3748c466f275
-  port: 8443
-  server: 45.144.48.158
-  skip-cert-verify: false
-  sni: joss.dus.biz.id
-  speed: 165.27
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/45.144.48.158=8443
-- name: NL_speednode_0036
-  network: ws
-  password: 5ad5fe82-6b60-4f59-977b-93910ef7a9ca
-  port: 443
-  server: 86.107.197.239
-  skip-cert-verify: false
-  sni: joss.dus.biz.id
-  speed: 122.09
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/86.107.197.239=443
-- name: RU_speednode_0044
-  network: ws
-  password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
-  port: 2053
-  server: 213.159.208.88
-  skip-cert-verify: false
-  sni: joss.dus.biz.id
-  speed: 121.23
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053
-- name: NL_speednode_0037
-  network: ws
-  password: f5eaa93a-4660-46a8-a1fd-bf993c7da57c
-  port: 8443
-  server: 185.121.233.231
-  skip-cert-verify: false
-  sni: joss.dus.biz.id
-  speed: 100.49
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/185.121.233.231=8443
 proxy-groups:
 - name: 自动选择
   proxies:
+  - IQ_speednode_0028
   - SE_speednode_0046
-  - SI_speednode_0048
-  - 香港4|@ripaojiedian
-  - '@NoForcedheaven'
-  - JP_speednode_0032
-  - PL_speednode_0038
-  - RU_speednode_0043
-  - RU_speednode_0041
-  - IT_speednode_0031
-  - MCI-IR--@V2rayAlpha-7
-  - 香港5|@ripaojiedian
-  - 新加坡|@ripaojiedian
-  - SI_speednode_0047
-  - '@V2rayNG3'
-  - US_speednode_0055
-  - BG_speednode_0006
-  - IQ_speednode_0030
-  - DK_speednode_0011
-  - PL_speednode_0039
+  - US_speednode_0050
   - NL_speednode_0036
-  - RU_speednode_0044
+  - 日本2|@ripaojiedian
+  - PL_speednode_0038
   - NL_speednode_0037
+  - 美国3|@ripaojiedian
+  - '@V2rayNG3'
+  - SI_speednode_0048
+  - 香港5|@ripaojiedian
+  - MCI-IR--@V2rayAlpha-7
+  - 日本3|@ripaojiedian
+  - '@NoForcedheaven'
+  - PL_speednode_0039
+  - 香港4|@ripaojiedian
+  - 新加坡2|@ripaojiedian
+  - US_speednode_0055
   type: select
 rules:
 - DOMAIN-SUFFIX,local,DIRECT
