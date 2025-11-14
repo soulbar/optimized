@@ -11,31 +11,39 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write  # 允许写入仓库
-    
+
+    # ✅ 在这里统一设置环境变量，和我们优化后的 config.py 对应
+    env:
+      # 要爬取的节点仓库列表（可以按需要修改）
+      GITHUB_REPOS: freefq/free,peasoft/NoMoreWalls,ripaojiedian/free-ssr-ss-v2ray-vless-clash
+      # 目标仓库默认分支
+      DEFAULT_BRANCH: main
+      # 把 Actions 自动注入的 GITHUB_TOKEN 传进代码里，用于 GitHub API 调用提速
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     steps:
     - name: 检出代码
       uses: actions/checkout@v3
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-    
+
     - name: 设置 Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
-    
+
     - name: 安装依赖
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-    
+
     - name: 运行爬虫
       run: |
         python main.py
-    
+
     - name: 提交更改
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add nodes.txt nodes.json clash_config.yaml log.txt || true
         git diff --staged --quiet || (git commit -m "自动更新节点 - $(date +'%Y-%m-%d %H:%M:%S')" && git push)
-
