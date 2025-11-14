@@ -1,0 +1,60 @@
+2025-11-14 04:36:36,427 - __main__ - INFO - ==================================================
+2025-11-14 04:36:36,428 - __main__ - INFO - 开始节点爬取和验证流程
+2025-11-14 04:36:36,428 - __main__ - INFO - 时间: 2025-11-14 04:36:36
+2025-11-14 04:36:36,428 - __main__ - INFO - ==================================================
+2025-11-14 04:36:36,428 - __main__ - INFO - 步骤 1: 开始爬取节点...
+2025-11-14 04:36:36,428 - node_crawler - INFO - 开始爬取仓库: freefq/free
+2025-11-14 04:36:37,551 - node_crawler - INFO - 仓库 freefq/free 共爬取到 0 个节点
+2025-11-14 04:36:37,551 - node_crawler - INFO - 开始爬取仓库: peasoft/NoMoreWalls
+2025-11-14 04:36:39,053 - node_crawler - ERROR - 解析 Clash 配置失败: while scanning a block scalar
+  in "<unicode string>", line 1, column 1:
+    ||ynuf.aliapp.org^
+    ^
+expected chomping or indentation indicators, but found '|'
+  in "<unicode string>", line 1, column 2:
+    ||ynuf.aliapp.org^
+     ^
+2025-11-14 04:36:39,925 - node_crawler - INFO - 从 list.meta.yml 解析到 142 个节点
+2025-11-14 04:36:40,622 - node_crawler - INFO - 从 list.yml 解析到 38 个节点
+2025-11-14 04:36:40,721 - node_crawler - INFO - 从 list_raw.txt 解析到 34 个链接节点
+2025-11-14 04:36:41,285 - node_crawler - INFO - 仓库 peasoft/NoMoreWalls 共爬取到 214 个节点
+2025-11-14 04:36:41,285 - node_crawler - INFO - 开始爬取仓库: ripaojiedian/free-ssr-ss-v2ray-vless-clash
+2025-11-14 04:36:42,015 - node_crawler - INFO - 仓库 ripaojiedian/free-ssr-ss-v2ray-vless-clash 共爬取到 0 个节点
+2025-11-14 04:36:42,015 - node_crawler - INFO - 去重后共 127 个唯一节点
+2025-11-14 04:36:42,015 - __main__ - INFO - 共爬取到 127 个节点
+2025-11-14 04:36:42,015 - __main__ - INFO - 步骤 2: 开始验证节点可用性...
+2025-11-14 04:36:42,015 - node_validator - INFO - 开始验证 127 个节点...
+2025-11-14 04:42:39,188 - node_validator - INFO - 验证完成，共 24 个可用节点
+2025-11-14 04:42:39,188 - __main__ - INFO - 验证完成，共 24 个可用节点
+2025-11-14 04:42:39,188 - __main__ - INFO - 步骤 3: 开始测速...
+2025-11-14 04:42:39,189 - node_speedtest - INFO - 开始测速 24 个节点...
+2025-11-14 04:42:39,271 - node_speedtest - INFO - 节点 160.16.81.84 速度: 174.22 KB/s
+2025-11-14 04:42:39,272 - node_speedtest - INFO - 节点 ges.jykvpn.com 速度: 111.87 KB/s
+2025-11-14 04:42:39,275 - node_speedtest - INFO - 节点 203.198.122.97 速度: 205.59 KB/s
+2025-11-14 04:42:39,277 - node_speedtest - INFO - 节点 46.62.152.236 速度: 111.10 KB/s
+2025-11-14 04:42:39,282 - node_speedtest - INFO - 节点 116.49.237.130 速度: 219.41 KB/s
+2025-11-14 04:42:39,283 - node_speedtest - INFO - 节点 94.131.114.50 速度: 171.34 KB/s
+2025-11-14 04:42:39,283 - node_speedtest - INFO - 节点 116.49.237.130 速度: 263.58 KB/s
+2025-11-14 04:42:39,283 - node_speedtest - INFO - 节点 34.22.190.30 速度: 167.41 KB/s
+2025-11-14 04:42:39,283 - node_speedtest - INFO - 节点 58.152.110.9 速度: 176.48 KB/s
+2025-11-14 04:42:39,423 - node_speedtest - INFO - 节点 213.159.208.88 速度: 102.26 KB/s
+2025-11-14 04:42:39,774 - node_speedtest - INFO - 节点 135.148.82.248 速度: 171.11 KB/s
+2025-11-14 04:42:39,809 - node_speedtest - INFO - 节点 160.16.124.55 速度: 161.72 KB/s
+2025-11-14 04:42:40,015 - node_speedtest - INFO - 节点 45.144.48.55 速度: 121.39 KB/s
+2025-11-14 04:42:43,591 - node_speedtest - INFO - 测速完成，共 13 个节点速度在范围内
+2025-11-14 04:42:43,591 - __main__ - INFO - 测速完成，共 13 个节点速度在范围内
+2025-11-14 04:42:43,591 - __main__ - INFO - 步骤 4: 保存结果...
+2025-11-14 04:42:43,591 - node_storage - INFO - 已保存 13 个节点到 nodes.txt
+2025-11-14 04:42:43,592 - node_storage - INFO - 已保存 13 个节点到 nodes.json
+2025-11-14 04:42:43,600 - node_storage - INFO - 已保存 Clash 配置到 clash_config.yaml
+2025-11-14 04:42:43,600 - __main__ - INFO - ==================================================
+2025-11-14 04:42:43,600 - __main__ - INFO - 爬取和验证完成！
+2025-11-14 04:42:43,600 - __main__ - INFO - 总节点数: 127
+2025-11-14 04:42:43,600 - __main__ - INFO - 可用节点数: 24
+2025-11-14 04:42:43,601 - __main__ - INFO - 速度合格节点数: 13
+2025-11-14 04:42:43,601 - __main__ - INFO - 流媒体访问统计:
+2025-11-14 04:42:43,601 - __main__ - INFO -   youtube: 9 个节点可访问
+2025-11-14 04:42:43,601 - __main__ - INFO -   github: 13 个节点可访问
+2025-11-14 04:42:43,601 - __main__ - INFO -   chatgpt: 13 个节点可访问
+2025-11-14 04:42:43,601 - __main__ - INFO -   netflix: 13 个节点可访问
+2025-11-14 04:42:43,601 - __main__ - INFO - ==================================================

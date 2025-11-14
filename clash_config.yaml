@@ -1,0 +1,171 @@
+allow-lan: false
+external-controller: 127.0.0.1:9090
+log-level: info
+mode: rule
+port: 7890
+proxies:
+- name: 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 2753
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  speed: 263.58
+  type: trojan
+- name: 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 4094
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  speed: 219.41
+  type: trojan
+- name: 香港4|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 203.198.122.97
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  speed: 205.59
+  type: trojan
+- name: 香港3|@ripaojiedian
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 443
+  server: 58.152.110.9
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  speed: 176.48
+  type: trojan
+- name: 新加坡|@ripaojiedian
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 2760
+  server: 160.16.81.84
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  speed: 174.22
+  type: trojan
+- name: IL_speednode_0008
+  network: ws
+  password: a5a3350e-6ea2-4e12-ae84-20db849ce1fc
+  port: 81
+  server: 94.131.114.50
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  speed: 171.34
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/94.131.114.50=81
+- name: MCI-IR--@V2rayAlpha-7
+  password: 9ec830fd-79da-4706-a964-cb227d7198db
+  port: 33333
+  server: 135.148.82.248
+  skip-cert-verify: true
+  speed: 171.11
+  tls: false
+  type: hysteria2
+- name: BE_speednode_0001
+  network: ws
+  password: 88701884-7690-4b79-ac5d-36d299e05e83
+  port: 443
+  server: 34.22.190.30
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  speed: 167.41
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
+- name: 新加坡2|@ripaojiedian
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 5553
+  server: 160.16.124.55
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  speed: 161.72
+  type: trojan
+- name: PL_speednode_0016
+  network: ws
+  password: 55d19115-ec40-407b-a674-74e6a948347a
+  port: 2053
+  server: 45.144.48.55
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  speed: 121.39
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/45.144.48.55=2053
+- flow: xtls-rprx-vision
+  name: IQ_speednode_0010
+  port: 443
+  reality-opts:
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: 4c02bbbfa833b3b6
+  server: ges.jykvpn.com
+  servername: cdnjs.com
+  skip-cert-verify: false
+  speed: 111.87
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
+- name: '@NoForcedheaven'
+  obfs: salamander
+  obfs-password: 9242a8bf
+  password: a2678c97b8d79059
+  port: 443
+  server: 46.62.152.236
+  skip-cert-verify: true
+  speed: 111.1
+  tls: false
+  type: hysteria2
+- name: RU_speednode_0018
+  network: ws
+  password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
+  port: 2053
+  server: 213.159.208.88
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  speed: 102.26
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053
+proxy-groups:
+- name: 自动选择
+  proxies:
+  - 新加坡3|@ripaojiedian
+  - 美国3|@ripaojiedian
+  - 香港4|@ripaojiedian
+  - 香港3|@ripaojiedian
+  - 新加坡|@ripaojiedian
+  - IL_speednode_0008
+  - MCI-IR--@V2rayAlpha-7
+  - BE_speednode_0001
+  - 新加坡2|@ripaojiedian
+  - PL_speednode_0016
+  - IQ_speednode_0010
+  - '@NoForcedheaven'
+  - RU_speednode_0018
+  type: select
+rules:
+- DOMAIN-SUFFIX,local,DIRECT
+- IP-CIDR,127.0.0.0/8,DIRECT
+- GEOIP,CN,DIRECT
+- MATCH,自动选择
+socks-port: 7891
