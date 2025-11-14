@@ -210,12 +210,21 @@ class GitHubNodeCrawler:
         logger.info(f"[crawler] 仓库 {repo} 共爬取到 {len(all_nodes)} 个节点（未去重）")
         return all_nodes
 
-    def crawl_all(self) -> List[Dict[str, Any]]:
-        """爬取 config.GITHUB_REPOS 中配置的所有仓库，并去重"""
+        def crawl_all(self, repos: List[str] | None = None) -> List[Dict[str, Any]]:
+        """
+        爬取所有仓库并去重。
+
+        兼容旧代码：
+        - 如果传入 repos（例如 main.py 里传的 GITHUB_REPOS），就用传入的；
+        - 否则默认用 config.GITHUB_REPOS。
+        """
+        if repos is None:
+            repos = GITHUB_REPOS
+
         all_nodes: List[Dict[str, Any]] = []
         seen = set()
 
-        for repo in GITHUB_REPOS:
+        for repo in repos:
             repo_nodes = self.crawl_repo(repo)
             for n in repo_nodes:
                 key = (n.get("type"), n.get("server"), n.get("port"), n.get("name"))
@@ -226,3 +235,4 @@ class GitHubNodeCrawler:
 
         logger.info(f"[crawler] 去重后共 {len(all_nodes)} 个唯一节点")
         return all_nodes
+
