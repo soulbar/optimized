@@ -1,79 +1,18 @@
 [
   {
-    "type": "vless",
-    "name": "RU_speednode_0017",
-    "server": "5.129.252.60",
-    "port": 443,
+    "type": "trojan",
+    "name": "美国3|@ripaojiedian",
+    "server": "us.wyau.cn",
+    "port": 4569,
     "config": {
-      "flow": "xtls-rprx-vision",
-      "name": "RU_speednode_0017",
-      "port": 443,
-      "reality-opts": {
-        "public-key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
-        "short-id": "c2a0b2d60a7fc300"
-      },
-      "server": "5.129.252.60",
-      "servername": "cdnjs.com",
-      "skip-cert-verify": false,
-      "tls": true,
-      "type": "vless",
-      "udp": true,
-      "uuid": "56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1"
-    },
-    "streaming_access": {
-      "youtube": true,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 287.15,
-    "speed_ok": true
-  },
-  {
-    "type": "hysteria2",
-    "name": "All-@V2rayAlpha--44",
-    "server": "40.233.103.51",
-    "port": 47262,
-    "config": {
-      "name": "All-@V2rayAlpha--44",
-      "password": "862e90e1-2f26-4506-b8b9-0adf20da05fc",
-      "port": 47262,
-      "server": "40.233.103.51",
+      "name": "美国3|@ripaojiedian",
+      "network": "tcp",
+      "password": "BxceQaOe",
+      "port": 4569,
+      "server": "us.wyau.cn",
       "skip-cert-verify": true,
-      "sni": "www.bing.com",
-      "tls": false,
-      "type": "hysteria2"
-    },
-    "streaming_access": {
-      "youtube": false,
-      "github": true,
-      "chatgpt": true,
-      "netflix": false
-    },
-    "validated": true,
-    "speed": 280.08,
-    "speed_ok": true
-  },
-  {
-    "type": "vless",
-    "name": "DE_speednode_0004",
-    "server": "185.161.251.24",
-    "port": 29973,
-    "config": {
-      "name": "DE_speednode_0004",
-      "port": 29973,
-      "reality-opts": {
-        "public-key": "QqNYhBZPJmHBGFF_4WsxNPcH8xve-4gma9--drcflHQ",
-        "short-id": "cd6229f31e7180e6"
-      },
-      "server": "185.161.251.24",
-      "servername": "yandex.ru",
-      "skip-cert-verify": false,
-      "tls": true,
-      "type": "vless",
-      "udp": true,
-      "uuid": "a1493ccd-d1a4-4087-9041-1b3500224003"
+      "sni": "t.me%2Fripaojiedian",
+      "type": "trojan"
     },
     "streaming_access": {
       "youtube": false,
@@ -82,7 +21,7 @@
       "netflix": true
     },
     "validated": true,
-    "speed": 266.32,
+    "speed": 296.39,
     "speed_ok": true
   },
   {
@@ -110,88 +49,7 @@
       "netflix": true
     },
     "validated": true,
-    "speed": 256.36,
-    "speed_ok": true
-  },
-  {
-    "type": "trojan",
-    "name": "新加坡3|@ripaojiedian",
-    "server": "38.180.191.251",
-    "port": 443,
-    "config": {
-      "name": "新加坡3|@ripaojiedian",
-      "network": "tcp",
-      "password": "BxceQaOe",
-      "port": 443,
-      "server": "38.180.191.251",
-      "skip-cert-verify": true,
-      "sni": "t.me%2Fripaojiedian",
-      "type": "trojan"
-    },
-    "streaming_access": {
-      "youtube": false,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 238.12,
-    "speed_ok": true
-  },
-  {
-    "type": "vless",
-    "name": "RU_speednode_0015",
-    "server": "youtube.jykvpn.com",
-    "port": 443,
-    "config": {
-      "flow": "xtls-rprx-vision",
-      "name": "RU_speednode_0015",
-      "port": 443,
-      "reality-opts": {
-        "public-key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
-        "short-id": "4c02bbbfa833b3b6"
-      },
-      "server": "youtube.jykvpn.com",
-      "servername": "cdnjs.com",
-      "skip-cert-verify": false,
-      "tls": true,
-      "type": "vless",
-      "udp": true,
-      "uuid": "56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1"
-    },
-    "streaming_access": {
-      "youtube": true,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 235.94,
-    "speed_ok": true
-  },
-  {
-    "type": "trojan",
-    "name": "香港3|@ripaojiedian",
-    "server": "58.152.110.216",
-    "port": 443,
-    "config": {
-      "name": "香港3|@ripaojiedian",
-      "network": "tcp",
-      "password": "2274c52572e721086f8bd8f88984643c",
-      "port": 443,
-      "server": "58.152.110.216",
-      "skip-cert-verify": false,
-      "sni": "www.nintendogames.net",
-      "type": "trojan"
-    },
-    "streaming_access": {
-      "youtube": false,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 229.54,
+    "speed": 288.66,
     "speed_ok": true
   },
   {
@@ -224,29 +82,23 @@
       "netflix": true
     },
     "validated": true,
-    "speed": 206.88,
+    "speed": 287.86,
     "speed_ok": true
   },
   {
-    "type": "vless",
-    "name": "DE_speednode_0002",
-    "server": "195.254.165.152",
-    "port": 9107,
+    "type": "trojan",
+    "name": "新加坡|@ripaojiedian",
+    "server": "160.16.236.32",
+    "port": 5552,
     "config": {
-      "client-fingerprint": "firefox",
-      "name": "DE_speednode_0002",
-      "port": 9107,
-      "reality-opts": {
-        "public-key": "Go_wk-NFoenM3xuCSQ84_0Lzh3Y6XrHzTz8XTbQl8lI",
-        "short-id": "e8ef8df79e4a6343"
-      },
-      "server": "195.254.165.152",
-      "servername": "refersion.com",
+      "name": "新加坡|@ripaojiedian",
+      "network": "tcp",
+      "password": "2274c52572e721086f8bd8f88984643c",
+      "port": 5552,
+      "server": "160.16.236.32",
       "skip-cert-verify": false,
-      "tls": true,
-      "type": "vless",
-      "udp": true,
-      "uuid": "774727ed-1e56-41bd-b55f-28549e21bcc8"
+      "sni": "www.nintendogames.net",
+      "type": "trojan"
     },
     "streaming_access": {
       "youtube": false,
@@ -255,7 +107,32 @@
       "netflix": true
     },
     "validated": true,
-    "speed": 199.37,
+    "speed": 284.72,
+    "speed_ok": true
+  },
+  {
+    "type": "trojan",
+    "name": "新加坡2|@ripaojiedian",
+    "server": "153.121.51.29",
+    "port": 127,
+    "config": {
+      "name": "新加坡2|@ripaojiedian",
+      "network": "tcp",
+      "password": "2274c52572e721086f8bd8f88984643c",
+      "port": 127,
+      "server": "153.121.51.29",
+      "skip-cert-verify": false,
+      "sni": "www.nintendogames.net",
+      "type": "trojan"
+    },
+    "streaming_access": {
+      "youtube": false,
+      "github": true,
+      "chatgpt": true,
+      "netflix": true
+    },
+    "validated": true,
+    "speed": 268.29,
     "speed_ok": true
   },
   {
@@ -286,47 +163,22 @@
       "netflix": true
     },
     "validated": true,
-    "speed": 170.2,
-    "speed_ok": true
-  },
-  {
-    "type": "hysteria2",
-    "name": "@V2rayNG3",
-    "server": "192.3.85.237",
-    "port": 443,
-    "config": {
-      "name": "@V2rayNG3",
-      "password": "123456",
-      "port": 443,
-      "server": "192.3.85.237",
-      "skip-cert-verify": true,
-      "sni": "bing.com",
-      "tls": false,
-      "type": "hysteria2"
-    },
-    "streaming_access": {
-      "youtube": false,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 161.52,
+    "speed": 256.53,
     "speed_ok": true
   },
   {
     "type": "trojan",
-    "name": "美国2|@ripaojiedian",
-    "server": "160.16.57.238",
-    "port": 4211,
+    "name": "日本|@ripaojiedian",
+    "server": "160.16.227.93",
+    "port": 1924,
     "config": {
-      "name": "美国2|@ripaojiedian",
+      "name": "日本|@ripaojiedian",
       "network": "tcp",
-      "password": "2274c52572e721086f8bd8f88984643c",
-      "port": 4211,
-      "server": "160.16.57.238",
+      "password": "BxceQaOe",
+      "port": 1924,
+      "server": "160.16.227.93",
       "skip-cert-verify": true,
-      "sni": "www.nintendogames.net",
+      "sni": "t.me%2Fripaojiedian",
       "type": "trojan"
     },
     "streaming_access": {
@@ -336,166 +188,7 @@
       "netflix": true
     },
     "validated": true,
-    "speed": 151.99,
-    "speed_ok": true
-  },
-  {
-    "type": "trojan",
-    "name": "日本2|@ripaojiedian",
-    "server": "160.16.57.238",
-    "port": 1334,
-    "config": {
-      "name": "日本2|@ripaojiedian",
-      "network": "tcp",
-      "password": "2274c52572e721086f8bd8f88984643c",
-      "port": 1334,
-      "server": "160.16.57.238",
-      "skip-cert-verify": false,
-      "sni": "www.nintendogames.net",
-      "type": "trojan"
-    },
-    "streaming_access": {
-      "youtube": false,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 151.4,
-    "speed_ok": true
-  },
-  {
-    "type": "hysteria2",
-    "name": "MCI-IR--@V2rayAlpha-14",
-    "server": "falankefu1.nezhasu.com",
-    "port": 443,
-    "config": {
-      "name": "MCI-IR--@V2rayAlpha-14",
-      "password": "2b195c17-5ff5-4b0d-a809-210b92212394",
-      "port": 443,
-      "server": "falankefu1.nezhasu.com",
-      "skip-cert-verify": true,
-      "sni": "falankefu1.nezhasu.com",
-      "tls": false,
-      "type": "hysteria2"
-    },
-    "streaming_access": {
-      "youtube": false,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 140.67,
-    "speed_ok": true
-  },
-  {
-    "type": "trojan",
-    "name": "RU_speednode_0016",
-    "server": "194.35.116.62",
-    "port": 11000,
-    "config": {
-      "name": "RU_speednode_0016",
-      "network": "ws",
-      "password": "-4146XJHYAzJ4K8Ov6_LBQ",
-      "port": 11000,
-      "server": "194.35.116.62",
-      "skip-cert-verify": false,
-      "sni": "f4e23c6c168f0e91.noproblemvpn.ru",
-      "type": "trojan",
-      "udp": true,
-      "ws-opts": {
-        "headers": {
-          "Host": "f4e23c6c168f0e91.noproblemvpn.ru"
-        },
-        "path": "/tw"
-      }
-    },
-    "streaming_access": {
-      "youtube": true,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 137.3,
-    "speed_ok": true
-  },
-  {
-    "type": "trojan",
-    "name": "新加坡|@ripaojiedian",
-    "server": "160.16.236.32",
-    "port": 5552,
-    "config": {
-      "name": "新加坡|@ripaojiedian",
-      "network": "tcp",
-      "password": "2274c52572e721086f8bd8f88984643c",
-      "port": 5552,
-      "server": "160.16.236.32",
-      "skip-cert-verify": false,
-      "sni": "www.nintendogames.net",
-      "type": "trojan"
-    },
-    "streaming_access": {
-      "youtube": false,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 131.45,
-    "speed_ok": true
-  },
-  {
-    "type": "ss",
-    "name": "🇯🇵 日本4|@ripaojiedian",
-    "server": "172.105.217.136",
-    "port": 2377,
-    "config": {
-      "cipher": "chacha20-ietf-poly1305",
-      "name": "🇯🇵 日本4|@ripaojiedian",
-      "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv",
-      "plugin": "obfs",
-      "plugin-opts": {
-        "host": "e221b75:110505",
-        "mode": "tls"
-      },
-      "port": 2377,
-      "server": "172.105.217.136",
-      "type": "ss"
-    },
-    "streaming_access": {
-      "youtube": false,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 131.06,
-    "speed_ok": true
-  },
-  {
-    "type": "hysteria2",
-    "name": "MCI-IR--@V2rayAlpha-7",
-    "server": "135.148.82.248",
-    "port": 33333,
-    "config": {
-      "name": "MCI-IR--@V2rayAlpha-7",
-      "password": "9ec830fd-79da-4706-a964-cb227d7198db",
-      "port": 33333,
-      "server": "135.148.82.248",
-      "skip-cert-verify": true,
-      "tls": false,
-      "type": "hysteria2"
-    },
-    "streaming_access": {
-      "youtube": false,
-      "github": true,
-      "chatgpt": true,
-      "netflix": true
-    },
-    "validated": true,
-    "speed": 126.43,
+    "speed": 250.96,
     "speed_ok": true
   },
   {
@@ -526,23 +219,21 @@
       "netflix": true
     },
     "validated": true,
-    "speed": 122.73,
+    "speed": 232.37,
     "speed_ok": true
   },
   {
-    "type": "trojan",
-    "name": "日本|@ripaojiedian",
-    "server": "160.16.227.93",
-    "port": 1924,
+    "type": "ss",
+    "name": "🇭🇰 香港6|@ripaojiedian",
+    "server": "103.149.183.80",
+    "port": 8388,
     "config": {
-      "name": "日本|@ripaojiedian",
-      "network": "tcp",
-      "password": "BxceQaOe",
-      "port": 1924,
-      "server": "160.16.227.93",
-      "skip-cert-verify": true,
-      "sni": "t.me%2Fripaojiedian",
-      "type": "trojan"
+      "cipher": "chacha20-ietf",
+      "name": "🇭🇰 香港6|@ripaojiedian",
+      "password": "asd123456",
+      "port": 8388,
+      "server": "103.149.183.80",
+      "type": "ss"
     },
     "streaming_access": {
       "youtube": false,
@@ -551,23 +242,23 @@
       "netflix": true
     },
     "validated": true,
-    "speed": 119.71,
+    "speed": 184.37,
     "speed_ok": true
   },
   {
     "type": "vless",
-    "name": "US_speednode_0023",
-    "server": "fis.jykvpn.com",
+    "name": "RU_speednode_0015",
+    "server": "youtube.jykvpn.com",
     "port": 443,
     "config": {
       "flow": "xtls-rprx-vision",
-      "name": "US_speednode_0023",
+      "name": "RU_speednode_0015",
       "port": 443,
       "reality-opts": {
         "public-key": "MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw",
         "short-id": "4c02bbbfa833b3b6"
       },
-      "server": "fis.jykvpn.com",
+      "server": "youtube.jykvpn.com",
       "servername": "cdnjs.com",
       "skip-cert-verify": false,
       "tls": true,
@@ -582,23 +273,23 @@
       "netflix": true
     },
     "validated": true,
-    "speed": 105.76,
+    "speed": 152.25,
     "speed_ok": true
   },
   {
-    "type": "trojan",
-    "name": "美国3|@ripaojiedian",
-    "server": "us.wyau.cn",
-    "port": 4569,
+    "type": "hysteria2",
+    "name": "MCI-IR--@V2rayAlpha-14",
+    "server": "falankefu1.nezhasu.com",
+    "port": 443,
     "config": {
-      "name": "美国3|@ripaojiedian",
-      "network": "tcp",
-      "password": "BxceQaOe",
-      "port": 4569,
-      "server": "us.wyau.cn",
+      "name": "MCI-IR--@V2rayAlpha-14",
+      "password": "2b195c17-5ff5-4b0d-a809-210b92212394",
+      "port": 443,
+      "server": "falankefu1.nezhasu.com",
       "skip-cert-verify": true,
-      "sni": "t.me%2Fripaojiedian",
-      "type": "trojan"
+      "sni": "falankefu1.nezhasu.com",
+      "tls": false,
+      "type": "hysteria2"
     },
     "streaming_access": {
       "youtube": false,
@@ -607,20 +298,20 @@
       "netflix": true
     },
     "validated": true,
-    "speed": 104.46,
+    "speed": 143.05,
     "speed_ok": true
   },
   {
     "type": "trojan",
-    "name": "新加坡2|@ripaojiedian",
-    "server": "153.121.51.29",
-    "port": 127,
+    "name": "日本3|@ripaojiedian",
+    "server": "202.181.103.235",
+    "port": 3169,
     "config": {
-      "name": "新加坡2|@ripaojiedian",
+      "name": "日本3|@ripaojiedian",
       "network": "tcp",
       "password": "2274c52572e721086f8bd8f88984643c",
-      "port": 127,
-      "server": "153.121.51.29",
+      "port": 3169,
+      "server": "202.181.103.235",
       "skip-cert-verify": false,
       "sni": "www.nintendogames.net",
       "type": "trojan"
@@ -632,7 +323,57 @@
       "netflix": true
     },
     "validated": true,
-    "speed": 103.37,
+    "speed": 142.64,
+    "speed_ok": true
+  },
+  {
+    "type": "hysteria2",
+    "name": "All-@V2rayAlpha--44",
+    "server": "40.233.103.51",
+    "port": 47262,
+    "config": {
+      "name": "All-@V2rayAlpha--44",
+      "password": "862e90e1-2f26-4506-b8b9-0adf20da05fc",
+      "port": 47262,
+      "server": "40.233.103.51",
+      "skip-cert-verify": true,
+      "sni": "www.bing.com",
+      "tls": false,
+      "type": "hysteria2"
+    },
+    "streaming_access": {
+      "youtube": false,
+      "github": true,
+      "chatgpt": true,
+      "netflix": true
+    },
+    "validated": true,
+    "speed": 121.67,
+    "speed_ok": true
+  },
+  {
+    "type": "trojan",
+    "name": "日本2|@ripaojiedian",
+    "server": "160.16.57.238",
+    "port": 1334,
+    "config": {
+      "name": "日本2|@ripaojiedian",
+      "network": "tcp",
+      "password": "2274c52572e721086f8bd8f88984643c",
+      "port": 1334,
+      "server": "160.16.57.238",
+      "skip-cert-verify": false,
+      "sni": "www.nintendogames.net",
+      "type": "trojan"
+    },
+    "streaming_access": {
+      "youtube": false,
+      "github": true,
+      "chatgpt": true,
+      "netflix": true
+    },
+    "validated": true,
+    "speed": 109.98,
     "speed_ok": true
   }
 ]
