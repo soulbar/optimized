@@ -4,83 +4,36 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- name: 美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 2173
-  server: 18.163.122.76
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  speed: 284.25
-  type: trojan
-- name: '🔷🆔@v2ray_configs_pool🔷 #58'
-  password: 2b195c17-5ff5-4b0d-a809-210b92212394
-  port: 443
-  server: tokyo.nezhasu.com
-  skip-cert-verify: true
-  sni: Tokyo.nezhasu.com
-  speed: 275.55
-  tls: false
-  type: hysteria2
-- name: NL_speednode_0004
-  network: ws
-  password: e812343b-61a1-46fd-b086-b1395d0eb7de
-  port: 443
-  server: 89.110.116.141
-  skip-cert-verify: false
-  sni: joss.gpj.web.id
-  speed: 262.3
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/89.110.116.141=443
-- name: 美国2|@ripaojiedian
-  network: tcp
-  password: 2274c52572e721086f8bd8f88984643c
-  port: 4211
-  server: 160.16.151.196
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  speed: 255.11
-  type: trojan
-- name: 新加坡|@ripaojiedian
-  network: tcp
-  password: 2274c52572e721086f8bd8f88984643c
-  port: 127
-  server: 160.16.151.196
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  speed: 188.25
-  type: trojan
-- name: 香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.79.165.55
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  speed: 161.33
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇵 日本4|@ripaojiedian
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)9d3f6ec:160648
-    mode: tls
-  port: 2377
-  server: 3.112.229.1
-  speed: 156.88
-  type: ss
 - name: '@V2rayNG3'
   password: '123456'
   port: 443
   server: 192.3.85.237
   skip-cert-verify: true
   sni: bing.com
-  speed: 141.67
+  speed: 273.9
+  tls: false
+  type: hysteria2
+- flow: xtls-rprx-vision
+  name: BG_speednode_0001
+  port: 8443
+  reality-opts:
+    public-key: aILMLxhAsgJvx7TY3EsxOdmIc1uB0V7aJVIXaKYPPk4
+    short-id: 05a8b9980e65114c
+  server: de.monkeyisland.life
+  servername: de.monkeyisland.life
+  skip-cert-verify: false
+  speed: 254.88
+  tls: true
+  type: vless
+  udp: true
+  uuid: df5fc3f7-6b01-489a-a73c-e1297b14a3dd
+- name: MCI-IR--@V2rayAlpha-14
+  password: 2b195c17-5ff5-4b0d-a809-210b92212394
+  port: 443
+  server: falankefu1.nezhasu.com
+  skip-cert-verify: true
+  sni: falankefu1.nezhasu.com
+  speed: 233.89
   tls: false
   type: hysteria2
 - name: 日本2|@ripaojiedian
@@ -90,31 +43,8 @@ proxies:
   server: 153.121.65.107
   skip-cert-verify: false
   sni: www.nintendogames.net
-  speed: 121.89
+  speed: 229.01
   type: trojan
-- name: 日本3|@ripaojiedian
-  network: tcp
-  password: 2274c52572e721086f8bd8f88984643c
-  port: 3169
-  server: 160.16.63.16
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  speed: 119.31
-  type: trojan
-- name: RU_speednode_0005
-  network: ws
-  password: 3b38715b-f08a-46dd-9904-7531ca4bb6e8
-  port: 2053
-  server: 95.182.120.208
-  skip-cert-verify: false
-  sni: joss.gpj.web.id
-  speed: 117.63
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/95.182.120.208=2053
 - name: 新加坡2|@ripaojiedian
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
@@ -122,7 +52,90 @@ proxies:
   server: 153.121.65.107
   skip-cert-verify: false
   sni: www.nintendogames.net
-  speed: 101.63
+  speed: 223.51
+  type: trojan
+- alpn:
+  - h2
+  flow: xtls-rprx-vision
+  name: GB_speednode_0002
+  port: 443
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+  server: 217.154.218.42
+  servername: azure.com
+  skip-cert-verify: false
+  speed: 218.53
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0b0b98be-fdaf-40cc-a953-cc4091c838e1
+- name: NL_speednode_0004
+  network: ws
+  password: e812343b-61a1-46fd-b086-b1395d0eb7de
+  port: 443
+  server: 89.110.116.141
+  skip-cert-verify: false
+  sni: joss.gpj.web.id
+  speed: 215.35
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/89.110.116.141=443
+- name: 新加坡|@ripaojiedian
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 127
+  server: 160.16.151.196
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  speed: 198.87
+  type: trojan
+- name: 美国|@ripaojiedian
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 2890
+  server: 160.16.63.16
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  speed: 182.46
+  type: trojan
+- name: 香港5|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.79.165.55
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  speed: 160.57
+  type: trojan
+- name: 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 2173
+  server: 18.163.122.76
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  speed: 135.26
+  type: trojan
+- name: 香港3|@ripaojiedian
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 443
+  server: 58.152.110.216
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  speed: 124.69
+  type: trojan
+- name: 美国2|@ripaojiedian
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 4211
+  server: 160.16.151.196
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  speed: 111.37
   type: trojan
 - name: HK_speednode_0003
   network: tcp
@@ -131,24 +144,25 @@ proxies:
   server: 58.152.26.173
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  speed: 101.39
+  speed: 109.56
   type: trojan
   udp: true
 proxy-groups:
 - name: 自动选择
   proxies:
-  - 美国3|@ripaojiedian
-  - '🔷🆔@v2ray_configs_pool🔷 #58'
-  - NL_speednode_0004
-  - 美国2|@ripaojiedian
-  - 新加坡|@ripaojiedian
-  - 香港5|@ripaojiedian
-  - 🇯🇵 日本4|@ripaojiedian
   - '@V2rayNG3'
+  - BG_speednode_0001
+  - MCI-IR--@V2rayAlpha-14
   - 日本2|@ripaojiedian
-  - 日本3|@ripaojiedian
-  - RU_speednode_0005
   - 新加坡2|@ripaojiedian
+  - GB_speednode_0002
+  - NL_speednode_0004
+  - 新加坡|@ripaojiedian
+  - 美国|@ripaojiedian
+  - 香港5|@ripaojiedian
+  - 美国3|@ripaojiedian
+  - 香港3|@ripaojiedian
+  - 美国2|@ripaojiedian
   - HK_speednode_0003
   type: select
 rules:
