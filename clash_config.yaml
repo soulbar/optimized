@@ -4,83 +4,6 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- name: 美国3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 2173
-  server: 16.162.87.79
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  speed: 260.47
-  type: trojan
-- name: GB_speednode_0009
-  port: 40721
-  reality-opts:
-    public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
-    short-id: df8611c07d
-  server: 140.238.100.35
-  servername: yahoo.com
-  skip-cert-verify: false
-  speed: 260.13
-  tls: true
-  type: vless
-  udp: true
-  uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
-- flow: xtls-rprx-vision
-  name: AT_speednode_0001
-  port: 26861
-  reality-opts:
-    public-key: IIdE2p3vqHDjHfLrvJXkrLoYpYMJH0R1tacCkHiDtAA
-    short-id: ecc1c4
-  server: shadowshaman.fonixapp.org
-  servername: groww.in
-  skip-cert-verify: false
-  speed: 259.05
-  tls: true
-  type: vless
-  udp: true
-  uuid: 04db6938-72dc-42b4-a096-cc6a5e8316d2
-- name: MCI-IR--@V2rayAlpha-14
-  password: 2b195c17-5ff5-4b0d-a809-210b92212394
-  port: 443
-  server: falankefu1.nezhasu.com
-  skip-cert-verify: true
-  sni: falankefu1.nezhasu.com
-  speed: 250.27
-  tls: false
-  type: hysteria2
-- name: 新加坡|@ripaojiedian
-  network: tcp
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  port: 5553
-  server: 202.181.103.246
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  speed: 217.21
-  type: trojan
-- flow: xtls-rprx-vision
-  name: LB_speednode_0011
-  port: 443
-  reality-opts:
-    public-key: -Bdu8i-HU28Xmx87RMou5okYo8TqfbyZ8Ufs9RodUGE
-    short-id: 097de35e52ec5256
-  server: 77.110.127.105
-  servername: st.ozone.ru
-  skip-cert-verify: false
-  speed: 184.32
-  tls: true
-  type: vless
-  udp: true
-  uuid: 72239cbc-5a25-411c-b4f5-b9167a10f5e1
-- name: 日本3|@ripaojiedian
-  network: tcp
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  port: 1334
-  server: 202.181.103.246
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  speed: 163.87
-  type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
@@ -88,57 +11,119 @@ proxies:
   server: 153.121.53.187
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  speed: 149.02
+  speed: 283.89
   type: trojan
-- name: 香港3|@ripaojiedian
-  network: tcp
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
+- name: MCI-IR--@V2rayAlpha-14
+  password: 2b195c17-5ff5-4b0d-a809-210b92212394
   port: 443
-  server: 203.198.122.135
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  speed: 146.03
-  type: trojan
+  server: falankefu1.nezhasu.com
+  skip-cert-verify: true
+  sni: falankefu1.nezhasu.com
+  speed: 267.99
+  tls: false
+  type: hysteria2
 - name: '@V2rayNG3'
   password: '123456'
   port: 443
   server: 192.3.85.237
   skip-cert-verify: true
   sni: bing.com
-  speed: 131.33
+  speed: 250.0
   tls: false
   type: hysteria2
-- name: 新加坡3|@ripaojiedian
+- name: 美国2|@ripaojiedian
+  network: tcp
+  password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  port: 4210
+  server: 160.16.131.243
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  speed: 233.48
+  type: trojan
+- name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 3579
-  server: 116.49.237.130
+  port: 443
+  server: 58.152.26.173
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  speed: 125.97
+  speed: 229.91
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇻🇳 越南|@ripaojiedian
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.53
-  speed: 104.78
-  type: ss
+- name: '@NoForcedheaven'
+  obfs: salamander
+  obfs-password: 9242a8bf
+  password: a2678c97b8d79059
+  port: 443
+  server: 46.62.152.236
+  skip-cert-verify: true
+  speed: 186.65
+  tls: false
+  type: hysteria2
+- flow: xtls-rprx-vision
+  name: GR_speednode_0010
+  port: 443
+  reality-opts:
+    public-key: 1pX4yQMG3Gji_VeRpJgZ0dCxHafgiK0ul1_Paje38S4
+    short-id: 4395cf86
+  server: 185.242.84.182
+  servername: vk.cc
+  skip-cert-verify: false
+  speed: 168.33
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3c0e49cb-8940-561a-83b8-1efbb17f7cf7
+- flow: xtls-rprx-vision
+  name: LB_speednode_0012
+  port: 443
+  reality-opts:
+    public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
+    short-id: 07e904766d29b958
+  server: 77.110.119.225
+  servername: st.ozone.ru
+  skip-cert-verify: false
+  speed: 164.18
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
+- name: RU_speednode_0013
+  network: ws
+  port: 1443
+  server: 81.161.98.228
+  servername: cdn.filterai.ru
+  skip-cert-verify: false
+  speed: 144.19
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00f02ab2-6f2d-449f-a089-d182a2fac59a
+  ws-opts:
+    headers:
+      Host: cdn.filterai.ru
+    path: /websocketpl
+- name: 美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 2173
+  server: 16.162.87.79
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  speed: 126.13
+  type: trojan
 proxy-groups:
 - name: 自动选择
   proxies:
-  - 美国3|@ripaojiedian
-  - GB_speednode_0009
-  - AT_speednode_0001
-  - MCI-IR--@V2rayAlpha-14
-  - 新加坡|@ripaojiedian
-  - LB_speednode_0011
-  - 日本3|@ripaojiedian
   - 日本|@ripaojiedian
-  - 香港3|@ripaojiedian
+  - MCI-IR--@V2rayAlpha-14
   - '@V2rayNG3'
-  - 新加坡3|@ripaojiedian
-  - 🇻🇳 越南|@ripaojiedian
+  - 美国2|@ripaojiedian
+  - 香港4|@ripaojiedian
+  - '@NoForcedheaven'
+  - GR_speednode_0010
+  - LB_speednode_0012
+  - RU_speednode_0013
+  - 美国3|@ripaojiedian
   type: select
 rules:
 - DOMAIN-SUFFIX,local,DIRECT
