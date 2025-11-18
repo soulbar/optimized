@@ -5671,3 +5671,99 @@ expected chomping or indentation indicators, but found '|'
 2025-11-18 20:20:07,729 - __main__ - INFO -   chatgpt: 10 个节点可访问
 2025-11-18 20:20:07,729 - __main__ - INFO -   netflix: 10 个节点可访问
 2025-11-18 20:20:07,729 - __main__ - INFO - ==================================================
+2025-11-18 22:08:57,672 - __main__ - INFO - ==================================================
+2025-11-18 22:08:57,672 - __main__ - INFO - 开始节点爬取和验证流程
+2025-11-18 22:08:57,672 - __main__ - INFO - 时间: 2025-11-18 22:08:57
+2025-11-18 22:08:57,672 - __main__ - INFO - ==================================================
+2025-11-18 22:08:57,672 - __main__ - INFO - 步骤 1: 开始爬取节点...
+2025-11-18 22:08:57,672 - node_crawler - INFO - [crawler] 开始爬取仓库: freefq/free
+2025-11-18 22:08:57,929 - node_crawler - INFO - [crawler] 仓库 freefq/free 在分支 master 找到 0 个候选文件
+2025-11-18 22:08:57,930 - node_crawler - INFO - [crawler] 仓库 freefq/free 共爬取到 0 个节点（未去重）
+2025-11-18 22:08:57,930 - node_crawler - INFO - [crawler] 开始爬取仓库: peasoft/NoMoreWalls
+2025-11-18 22:08:58,173 - node_crawler - INFO - [crawler] 仓库 peasoft/NoMoreWalls 在分支 master 找到 46 个候选文件
+2025-11-18 22:08:58,309 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:08:58,677 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:08:59,435 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 160 个节点
+2025-11-18 22:09:00,307 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 32 个节点
+2025-11-18 22:09:00,439 - node_crawler - INFO - [crawler] 从文本解析到 37 条链接节点
+2025-11-18 22:09:00,953 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:01,069 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:01,288 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 160 个节点
+2025-11-18 22:09:01,461 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 32 个节点
+2025-11-18 22:09:01,577 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:01,694 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:01,821 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 1 个节点
+2025-11-18 22:09:01,972 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 1 个节点
+2025-11-18 22:09:02,090 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:02,218 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:02,345 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 4 个节点
+2025-11-18 22:09:02,459 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:02,563 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:02,670 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:02,771 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 1 个节点
+2025-11-18 22:09:02,874 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:02,998 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 3 个节点
+2025-11-18 22:09:03,122 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:03,247 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 5 个节点
+2025-11-18 22:09:03,356 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 5 个节点
+2025-11-18 22:09:03,484 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 5 个节点
+2025-11-18 22:09:03,608 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 5 个节点
+2025-11-18 22:09:03,718 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:03,844 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:03,972 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 1 个节点
+2025-11-18 22:09:04,072 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:04,191 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 3 个节点
+2025-11-18 22:09:04,317 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:04,447 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 3 个节点
+2025-11-18 22:09:04,576 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 3 个节点
+2025-11-18 22:09:04,686 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:04,826 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:04,945 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 10 个节点
+2025-11-18 22:09:05,056 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 5 个节点
+2025-11-18 22:09:05,168 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:05,303 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:05,482 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:05,598 - node_crawler - INFO - [crawler] 从 Clash 配置解析到 0 个节点
+2025-11-18 22:09:05,598 - node_crawler - INFO - [crawler] 仓库 peasoft/NoMoreWalls 共爬取到 476 个节点（未去重）
+2025-11-18 22:09:05,598 - node_crawler - INFO - [crawler] 开始爬取仓库: ripaojiedian/free-ssr-ss-v2ray-vless-clash
+2025-11-18 22:09:05,746 - node_crawler - WARNING - [crawler] 仓库 ripaojiedian/free-ssr-ss-v2ray-vless-clash 无法获取文件树，请检查仓库是否存在/是否公开
+2025-11-18 22:09:05,746 - node_crawler - INFO - [crawler] 仓库 ripaojiedian/free-ssr-ss-v2ray-vless-clash 共爬取到 0 个节点（未去重）
+2025-11-18 22:09:05,747 - node_crawler - INFO - [crawler] 去重后共 161 个唯一节点
+2025-11-18 22:09:05,747 - __main__ - INFO - 共爬取到 161 个节点
+2025-11-18 22:09:05,747 - __main__ - INFO - 步骤 2: 开始验证节点可用性...
+2025-11-18 22:09:05,747 - node_validator - INFO - 开始验证 161 个节点...
+2025-11-18 22:17:45,128 - node_validator - INFO - 验证完成，共 18 个可用节点
+2025-11-18 22:17:45,128 - __main__ - INFO - 验证完成，共 18 个可用节点
+2025-11-18 22:17:45,128 - __main__ - INFO - 步骤 3: 开始测速...
+2025-11-18 22:17:45,128 - node_speedtest - INFO - 开始测速 18 个节点...
+2025-11-18 22:17:45,158 - node_speedtest - INFO - 节点 160.16.85.138 速度: 125.23 KB/s
+2025-11-18 22:17:45,161 - node_speedtest - INFO - 节点 160.16.116.227 速度: 289.01 KB/s
+2025-11-18 22:17:45,161 - node_speedtest - INFO - 节点 160.16.70.180 速度: 161.95 KB/s
+2025-11-18 22:17:45,161 - node_speedtest - INFO - 节点 falankefu1.nezhasu.com 速度: 153.87 KB/s
+2025-11-18 22:17:45,161 - node_speedtest - INFO - 节点 160.16.240.91 速度: 219.31 KB/s
+2025-11-18 22:17:45,164 - node_speedtest - INFO - 节点 116.49.237.130 速度: 226.30 KB/s
+2025-11-18 22:17:45,165 - node_speedtest - INFO - 节点 194.87.18.124 速度: 176.56 KB/s
+2025-11-18 22:17:45,165 - node_speedtest - INFO - 节点 160.16.70.180 速度: 200.42 KB/s
+2025-11-18 22:17:45,210 - node_speedtest - INFO - 节点 45.144.172.243 速度: 276.28 KB/s
+2025-11-18 22:17:45,210 - node_speedtest - INFO - 节点 81.161.98.228 速度: 140.52 KB/s
+2025-11-18 22:17:45,575 - node_speedtest - INFO - 节点 103.186.154.225 速度: 225.06 KB/s
+2025-11-18 22:17:46,006 - node_speedtest - INFO - 节点 192.3.85.237 速度: 114.11 KB/s
+2025-11-18 22:17:46,012 - node_speedtest - INFO - 节点 nl.nodes.rocketnetwork.ru 速度: 113.44 KB/s
+2025-11-18 22:17:46,103 - node_speedtest - INFO - 节点 160.16.240.91 速度: 102.72 KB/s
+2025-11-18 22:17:49,439 - node_speedtest - INFO - 测速完成，共 14 个节点速度在范围内
+2025-11-18 22:17:49,439 - __main__ - INFO - 测速完成，共 14 个节点速度在范围内
+2025-11-18 22:17:49,439 - __main__ - INFO - 步骤 4: 保存结果...
+2025-11-18 22:17:49,439 - node_storage - INFO - 已保存 14 个节点到 nodes.txt
+2025-11-18 22:17:49,440 - node_storage - INFO - 已保存 14 个节点到 nodes.json
+2025-11-18 22:17:49,448 - node_storage - INFO - 已保存 Clash 配置到 clash_config.yaml
+2025-11-18 22:17:49,448 - __main__ - INFO - ==================================================
+2025-11-18 22:17:49,448 - __main__ - INFO - 爬取和验证完成！
+2025-11-18 22:17:49,449 - __main__ - INFO - 总节点数: 161
+2025-11-18 22:17:49,449 - __main__ - INFO - 可用节点数: 18
+2025-11-18 22:17:49,449 - __main__ - INFO - 速度合格节点数: 14
+2025-11-18 22:17:49,449 - __main__ - INFO - 流媒体访问统计:
+2025-11-18 22:17:49,449 - __main__ - INFO -   youtube: 0 个节点可访问
+2025-11-18 22:17:49,449 - __main__ - INFO -   github: 14 个节点可访问
+2025-11-18 22:17:49,449 - __main__ - INFO -   chatgpt: 14 个节点可访问
+2025-11-18 22:17:49,449 - __main__ - INFO -   netflix: 14 个节点可访问
+2025-11-18 22:17:49,449 - __main__ - INFO - ==================================================
