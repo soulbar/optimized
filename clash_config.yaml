@@ -4,32 +4,42 @@ log-level: info
 mode: rule
 port: 7890
 proxies:
-- name: US_speednode_0013
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+- name: '@NoForcedheaven'
+  obfs: salamander
+  obfs-password: 9242a8bf
+  password: a2678c97b8d79059
   port: 443
-  server: 108.165.255.5
+  server: 46.62.152.236
   skip-cert-verify: true
-  sni: www.bilibili.com
-  speed: 293.06
-  type: trojan
-  udp: true
-- name: US_speednode_0014
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  speed: 273.03
+  tls: false
+  type: hysteria2
+- name: MCI-IR--@V2rayAlpha-14
+  password: 2b195c17-5ff5-4b0d-a809-210b92212394
   port: 443
-  server: 96.126.190.132
+  server: falankefu1.nezhasu.com
   skip-cert-verify: true
-  sni: www.bilibili.com
-  speed: 232.53
-  type: trojan
-  udp: true
-- name: 香港4|@ripaojiedian
+  sni: falankefu1.nezhasu.com
+  speed: 188.99
+  tls: false
+  type: hysteria2
+- name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 443
-  server: 58.152.26.173
+  port: 3127
+  server: 116.49.237.130
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  speed: 230.06
+  speed: 161.76
+  type: trojan
+- name: 新加坡|@ripaojiedian
+  network: tcp
+  password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  port: 2760
+  server: 160.16.117.182
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  speed: 142.58
   type: trojan
 - name: 香港5|@ripaojiedian
   network: tcp
@@ -38,61 +48,7 @@ proxies:
   server: 219.79.165.55
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  speed: 228.42
-  type: trojan
-- name: 新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 3127
-  server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  speed: 217.56
-  type: trojan
-- name: 香港3|@ripaojiedian
-  network: tcp
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  port: 443
-  server: 58.152.110.206
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  speed: 147.45
-  type: trojan
-- name: '@V2rayNG3'
-  password: '123456'
-  port: 443
-  server: 192.3.85.237
-  skip-cert-verify: true
-  sni: bing.com
-  speed: 138.49
-  tls: false
-  type: hysteria2
-- name: 新加坡|@ripaojiedian
-  network: tcp
-  password: dd2f25b4c70689de8bc0f7fa9d6591cb
-  port: 2760
-  server: 160.16.117.182
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  speed: 113.27
-  type: trojan
-- name: MCI-IR--@V2rayAlpha-14
-  password: 2b195c17-5ff5-4b0d-a809-210b92212394
-  port: 443
-  server: falankefu1.nezhasu.com
-  skip-cert-verify: true
-  sni: falankefu1.nezhasu.com
-  speed: 111.63
-  tls: false
-  type: hysteria2
-- name: 日本|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 5156
-  server: 153.121.65.212
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  speed: 108.02
+  speed: 117.85
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
@@ -101,22 +57,37 @@ proxies:
   server: 160.16.117.182
   skip-cert-verify: false
   sni: www.nintendogames.net
-  speed: 101.29
+  speed: 114.39
+  type: trojan
+- name: '@V2rayNG3'
+  password: '123456'
+  port: 443
+  server: 192.3.85.237
+  skip-cert-verify: true
+  sni: bing.com
+  speed: 110.33
+  tls: false
+  type: hysteria2
+- name: 新加坡2|@ripaojiedian
+  network: tcp
+  password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  port: 127
+  server: 153.121.73.102
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  speed: 101.85
   type: trojan
 proxy-groups:
 - name: 自动选择
   proxies:
-  - US_speednode_0013
-  - US_speednode_0014
-  - 香港4|@ripaojiedian
-  - 香港5|@ripaojiedian
-  - 新加坡3|@ripaojiedian
-  - 香港3|@ripaojiedian
-  - '@V2rayNG3'
-  - 新加坡|@ripaojiedian
+  - '@NoForcedheaven'
   - MCI-IR--@V2rayAlpha-14
-  - 日本|@ripaojiedian
+  - 新加坡3|@ripaojiedian
+  - 新加坡|@ripaojiedian
+  - 香港5|@ripaojiedian
   - 日本2|@ripaojiedian
+  - '@V2rayNG3'
+  - 新加坡2|@ripaojiedian
   type: select
 rules:
 - DOMAIN-SUFFIX,local,DIRECT
